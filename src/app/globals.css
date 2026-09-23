@@ -1,2 +1,25 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.timeline-scrollbar {
+	scrollbar-color: #818cf8 #e0e7ff;
+	scrollbar-width: thin;
+}
+
+.timeline-scrollbar::-webkit-scrollbar {
+	height: 8px;
+}
+
+.timeline-scrollbar::-webkit-scrollbar-track {
+	background: #e0e7ff;
+	border-radius: 9999px;
+}
+
+.timeline-scrollbar::-webkit-scrollbar-thumb {
+	background: #818cf8;
+	border-radius: 9999px;
+}
+
+.timeline-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #6366f1;
+}

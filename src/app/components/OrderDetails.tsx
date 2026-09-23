@@ -27,7 +27,7 @@ const OrderDetails = () => {
         <div className="flex flex-col space-y-5">
             <div className="mb-3 space-y-3">
                 <h2 className="text-xl font-semibold">In this order</h2>
-                <div className="bg-indigo-100 rounded-xl px-5 grid gap-5 grid-cols-2 py-8">
+                <div className="bg-indigo-100 rounded-xl px-5 grid gap-5 lg:grid-cols-2 grid-cols-1 py-8">
                     <div className=" bg-indigo-200 rounded-full flex items-center justify-center">
                         <HiHomeModern className="text-2xl"></HiHomeModern>
                     </div>

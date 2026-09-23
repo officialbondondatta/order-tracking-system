@@ -29,7 +29,7 @@ const Navbar = () => {
                         {NavLinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden lg:block">
                     <Link href={"/"} className="btn bg-green-500 text-white">Order Now</Link>
                 </div>
             </div>
