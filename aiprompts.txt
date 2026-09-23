@@ -1,0 +1,8 @@
+copilot:
+make this component conditional for other two states and the color should stop at shipped for delayed order , for delivered not recieved at till marked delivered and for tracking unavailable till processing only. 
+
+chatgpt (astra-light):
+make a professional readme. file for this project
+[https://github.com/officialbondondatta/order-tracking-system.git](https://github.com/officialbondondatta/order-tracking-system.git)
+
+kindly provide me a example of order screen ui, which will contain different states of the delivery process.
