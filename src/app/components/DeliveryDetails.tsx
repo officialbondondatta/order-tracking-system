@@ -1,5 +1,5 @@
+import Link from "next/link";
 import DeliveryStatus from "./DeliveryStatus";
-
 const DeliveryDetails = () => {
     return (
         <div>
@@ -14,13 +14,14 @@ const DeliveryDetails = () => {
                     <h2 className="text-xl font-semibold">Today, Sep 24 . by 8 PM</h2>
                     <span className="text-sm">Previous estimate: Sep 23 . by 8 PM</span>
                 </div>
-                <div>
+                <div className="col-span-7">
                     <DeliveryStatus></DeliveryStatus>
                 </div>
+                <div>
+                    <Link href={"/"} className="bg-indigo-400 px-3 font-semibold py-1 rounded-full text-white">Ask for a delivery update</Link>
+                </div>
             </div>
-            <div>
-                <button className="bg-indigo-400 px-3 font-semibold py-1 rounded-full text-white">Ask for a delivery update</button>
-            </div>
+
         </div>
     );
 };
