@@ -1,9 +1,9 @@
-import Image from "next/image";
+import TrackYourOrder from "./components/TrackYourOrder";
 
 export default function Home() {
   return (
     <div>
-      <h2>Order Tracking System</h2>
+      <TrackYourOrder></TrackYourOrder>
     </div>
   );
 }
