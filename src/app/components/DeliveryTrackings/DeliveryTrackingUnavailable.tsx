@@ -16,7 +16,7 @@ const DeliveryTrackingUnavailable = () => {
                     <span className="text-sm">We will email you when tracking is available.</span>
                 </div>
                 <div className="col-span-7">
-                    <DeliveryStatus></DeliveryStatus>
+                    <DeliveryStatus state="Tracking unavailable"></DeliveryStatus>
                 </div>
                 <div>
                     <Link href={"/"} className="bg-indigo-400 px-3 font-semibold py-1 rounded-full text-white">Get help with this order</Link>

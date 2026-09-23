@@ -15,7 +15,7 @@ const DeliveryDetails = () => {
                     <span className="text-sm">Previous estimate: Sep 23 . by 8 PM</span>
                 </div>
                 <div className="col-span-7">
-                    <DeliveryStatus></DeliveryStatus>
+                    <DeliveryStatus state="Delayed Order"></DeliveryStatus>
                 </div>
                 <div>
                     <Link href={"/"} className="bg-indigo-400 px-3 font-semibold py-1 rounded-full text-white">Ask for a delivery update</Link>

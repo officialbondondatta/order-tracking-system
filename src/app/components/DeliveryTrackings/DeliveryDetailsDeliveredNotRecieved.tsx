@@ -17,7 +17,7 @@ const DeliveryDetailsDeliveredNotRecieved = () => {
                     <span className="text-sm">Carrier note: left at the front door</span>
                 </div>
                 <div className="col-span-7">
-                    <DeliveryStatus></DeliveryStatus>
+                    <DeliveryStatus state="Delivered, not received"></DeliveryStatus>
                 </div>
                 <div>
                     <Link href={"/"} className="bg-indigo-400 px-3 font-semibold py-1 rounded-full text-white">Report a missing package</Link>
