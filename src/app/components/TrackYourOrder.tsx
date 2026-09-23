@@ -19,17 +19,17 @@ const TrackYourOrder = () => {
                 <div className="col-span-7 bg-green-50 p-5 py-8 rounded-xl">
                     {/* name of each tab group should be unique */}
                     <div className="tabs">
-                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-md checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Delayed Order" defaultChecked />
+                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-full checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Delayed Order" defaultChecked />
                         <div className="tab-content mt-5">
                             <DeliveryDetails></DeliveryDetails>
                         </div>
 
-                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-md checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Delivered but not received" />
+                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-full checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Delivered but not received" />
                         <div className="tab-content mt-5">
                             <DeliveryDetailsDeliveredNotRecieved></DeliveryDetailsDeliveredNotRecieved>
                         </div>
 
-                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-md checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Tracking Not available yet" />
+                        <input type="radio" name="my_tabs_6" className="tab text-sm font-semibold checked:border checked:rounded-full checked:bg-indigo-400 checked:text-white checked:border-indigo-500" aria-label="Tracking Not available yet" />
                         <div className="tab-content mt-5">
                             <DeliveryTrackingUnavailable></DeliveryTrackingUnavailable>
                         </div>
