@@ -1,5 +1,5 @@
 import Link from "next/link";
-import DeliveryStatus from "./DeliveryStatus";
+import DeliveryStatus from "../DeliveryStatus";
 const DeliveryDetails = () => {
     return (
         <div>
